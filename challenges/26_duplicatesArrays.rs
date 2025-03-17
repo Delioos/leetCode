@@ -8,7 +8,7 @@ impl Solution {
         for n in nums.clone().iter_mut() {
             if *n == last_value {
                 nums.remove(c as usize);
-                c -= 1;
+                c -= 1  
             }
             last_value = *n;
             c += 1;
